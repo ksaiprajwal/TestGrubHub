@@ -77,7 +77,6 @@ div {
   justify-content: center;
   align-items: center;
   width: 100%;
-
 }
 
 .tag-button {
@@ -362,7 +361,7 @@ div {
   margin-top: 20px;
   font-weight: bold;
   font-size: 16px;
-  background-color: #E00707;
+  background-color: #FACC15;
   color: white;
   border: none;
   padding: 10px 15px;

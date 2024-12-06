@@ -304,29 +304,6 @@ export default function BusinessCard({ search }) {
         {/* MIDDLE DIV END */}
         {/* RIGHT DIV START */}
 
-        <div id="blur-map-div" style={{ backgroundImage: `url(${blurmap})` }}>
-          <div id="google-map-div">
-
-            <StaticGoogleMap size="640x640" apiKey={imagepng}>
-              <Marker
-                location={{ lat: search[0].latitude, lng: search[0].longitude }}
-                color="red"
-                label="P"
-              />
-              {!!businessList?.length && Object.values(businessList || search).map((business, i) => {
-                return (
-                  <Marker
-                    location={{ lat: business.latitude, lng: business.longitude }}
-                    color="red"
-                    label="P"
-                  />
-                )
-              })}
-            </StaticGoogleMap>
-
-          </div>
-        </div>
-
 
 
       </div>

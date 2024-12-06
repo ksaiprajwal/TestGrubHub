@@ -31,7 +31,7 @@ function AddBusiness() {
                     <img id="add-business-nav-bar-logo" src={nope} alt='nope icon' />
                     </Link>
                     <Link to="/">
-                        <div className="add-business-nav-bar-back-to-nope">Back to nope</div></Link>
+                        <div className="add-business-nav-bar-back-to-nope">Back to home</div></Link>
                 </div>
             </div>
 
@@ -58,7 +58,7 @@ function AddBusiness() {
                     <div className="create-business-trio-card 2">
                         <img id="svg-trio-card" src={ic2} alt='svg icon' />
                         <div className="svg-trio-card-title">Get found & grow</div>
-                        <div className="svg-trio-card-paragraph">Your page gets you in front of ready-to-spend customers both on and beyond Nope.</div>
+                        <div className="svg-trio-card-paragraph">Your page gets you in front of ready-to-spend customers both on and beyond GrubSpot.</div>
                     </div>
                     <div className="create-business-trio-card 3">
                         <img id="svg-trio-card" src={ic3}  alt='svg icon'/>
@@ -79,7 +79,7 @@ function AddBusiness() {
                                 Help people get to know you
                             </div>
                             <div className="add-business-mid-paragraph">
-                                Having a strong presence on Nope helps you completely diminish trust with potential customers. Manage your page for free or upgrade to stand out from the competition.
+                                Having a strong presence on GrubSpot helps you completely diminish trust with potential customers. Manage your page for free or upgrade to stand out from the competition.
                             </div>
                             <div className="add-business-mid-checklist">
                                 <div>
@@ -108,7 +108,7 @@ function AddBusiness() {
                                 </div>
                                 <div className="item-unordered-list">
                                     <br />• 3 business tags
-                                    <br />• Listing on Nope
+                                    <br />• Listing on GrubSpot
                                     <br />• Search for listing
                                 </div>
                             </div>

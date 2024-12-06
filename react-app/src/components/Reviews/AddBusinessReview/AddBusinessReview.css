@@ -322,7 +322,7 @@ textarea:focus {
 #submit-review {
     font-weight: 700;
     color: white;
-    background-color: #E00707;
+    background-color: #FACC15;
     border: none;
     border-radius: 5px;
     height: 40px;
@@ -333,7 +333,7 @@ textarea:focus {
 #cancel-review {
     font-weight: 700;
     color: white;
-    background-color: #E00707;
+    background-color: #FACC15;
     border: none;
     border-radius: 5px;
     height: 40px;

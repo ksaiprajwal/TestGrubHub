@@ -18,9 +18,33 @@
 
 a:link { text-decoration: none; }
 
-a:visited { text-decoration: none; }
+#search-nav{
+  color: white;
+  font-weight: 700;
+}
 
-a:hover { text-decoration: none; }
+#search-nav:hover {
+  background-color: rgba(225, 225, 225, 0.3);
+}
+
+#admin-login-nav {
+  color: white;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+#admin-login-nav:hover {
+  background-color: rgba(225, 225, 225, 0.3);
+}
+
+a:visited {}
+
+a:hover { }
 
 a:active { text-decoration: none; }
 
@@ -42,28 +66,28 @@ a:active { text-decoration: none; }
 
 .img1 {
     z-index: -1;
-    background-image: url("https://i.imgur.com/S0uYq1M.png");
+    background-image: url("https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: center;
 }
 
 .img2 {
     z-index: -2;
-    background-image: url("https://i.imgur.com/VmXqOr6.jpg");
+    background-image: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: center;
 }
 
 .img3 {
     z-index: -3;
-    background-image: url("https://i.imgur.com/4FbIE27.jpg");
+    background-image: url("https://images.unsplash.com/photo-1481833761820-0509d3217039?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: center;
 }
 
 .img4 {
     z-index: -4;
-    background-image: url("https://i.imgur.com/nr6J5z5.jpg");
+    background-image: url("https://images.unsplash.com/photo-1651750369351-825dae7026a1?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ");
     background-size: cover;
     background-position: center;
 }
@@ -109,7 +133,7 @@ a:active { text-decoration: none; }
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: #E00707;
+    background-color: #FACC15;
     border: none;
     border-radius: 5px;
     height: 48px;
@@ -213,6 +237,7 @@ a:active { text-decoration: none; }
     }
 }
 
+
 .navbar {
     font-family: 'Open-Sans', sans-serif;
     display: flex;
@@ -223,8 +248,8 @@ a:active { text-decoration: none; }
     align-items: center;
     height: 50px;
     margin-top: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
     z-index: 5;
 
 }
@@ -252,6 +277,14 @@ a:active { text-decoration: none; }
     height: 36px;
 }
 
+#search-restaurant-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 200px;
+  border-radius: 5px;
+}
 
 #for-businesses-button {
     display: flex;
@@ -269,8 +302,8 @@ a:active { text-decoration: none; }
   height: 36px;
   width: 140px;
   border-radius: 5px;
-  margin-left: 210px;
-  margin-right: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 #for-businesses-button-logged:hover {
@@ -303,6 +336,7 @@ a:active { text-decoration: none; }
     justify-content: center;
     align-items: center;
     height: 36px;
+    margin-right: 10px;
     width: 76px;
     border-radius: 5px;
     border: rgba(255, 255, 255, 0.7) 2px solid;
@@ -322,7 +356,7 @@ a:active { text-decoration: none; }
     align-items: center;
     height: 40px;
     width: 90px;
-    background-color: #E00707;
+    background-color: #FACC15;
     border-radius: 5px;
     transition: 1s;
 }
@@ -361,8 +395,9 @@ a:active { text-decoration: none; }
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 750px;
-    padding-left: 300px;
+    width: 550px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .search {
@@ -472,7 +507,7 @@ a:active { text-decoration: none; }
     width: 63px;
     height: 46.3px;
     box-sizing: border-box;
-    background-color: #E00707;
+    background-color: #FACC15;
     background-repeat: no-repeat;
     transition: 1s;
     background-position: 17px 8px;
@@ -480,7 +515,7 @@ a:active { text-decoration: none; }
     font-size: 0;
     vertical-align: top;
     border-radius: 0 4px 4px 0;
-    border:1px #E00707 solid;
+    border:1px #FACC15 solid;
 }
 
 .search-button-wrapper:hover {

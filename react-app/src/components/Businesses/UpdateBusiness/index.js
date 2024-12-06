@@ -276,7 +276,7 @@ const UpdateBusiness = () => {
                         {/*------- BUSINESS NAME  -------*/}
                         <div className='create-input-divs'>
 
-                            <label id='name-label'>Business name</label>
+                            <label id='name-label' placeholder='Business name'> </label>
                             <input
                                 className='create-business-input'
                                 type='text'
@@ -289,7 +289,7 @@ const UpdateBusiness = () => {
                         <div className='fragmented-divs-container-address-LL-url'>
                             {/*------ EMAIL ------*/}
                             <div className='fragmented-div-styling'>
-                                <label id="email-label">Email</label>
+                                <label id="email-label" placeholder='Email'></label>
                                 <input
                                     className='create-business-input'
                                     type='text'
@@ -300,7 +300,7 @@ const UpdateBusiness = () => {
                             </div>
                             {/*------ PHONE ------*/}
                             <div className='fragmented-div-styling'>
-                                <label id='phone-label'>Phone</label>
+                                <label id='phone-label' placeholder='Phone'></label>
                                 <input
                                     className='create-business-input'
                                     type='text'
@@ -313,7 +313,7 @@ const UpdateBusiness = () => {
                         <div className='fragmented-container' >
                             {/* ------ STREET ADDRESS ------ */}
                             <div id='address-input-div'>
-                                <label id='address-label'>Address</label>
+                                <label id='address-label' placeholder='Address'></label>
                                 <input
                                     id='force-border'
                                     className='create-business-input'
@@ -326,7 +326,7 @@ const UpdateBusiness = () => {
                             <div className='fragmented-divs-container-address-LL-url'>
                                 {/*------ CITY ------*/}
                                 <div className='fragmented-address-div'>
-                                    <label id='city-label'>City</label>
+                                    <label id='city-label' placeholder='City'></label>
                                     <input
                                         className='create-business-input'
                                         type='text'
@@ -337,7 +337,7 @@ const UpdateBusiness = () => {
                                 </div>
                                 {/*------- STATE -------*/}
                                 <div className='fragmented-address-div'>
-                                    <label id='state-label'>State</label>
+                                    <label id='state-label' placeholder='State'></label>
                                     <input
                                         className='create-business-input'
                                         type='text'
@@ -348,7 +348,7 @@ const UpdateBusiness = () => {
                                 </div>
                                 {/*------- ZIPCODE -------*/}
                                 <div className='fragmented-address-div'>
-                                    <label id='zipcode-label'>Zipcode</label>
+                                    <label id='zipcode-label' placeholder='Zipcode'></label>
                                     <input
                                         className='create-business-input'
                                         type='number'
@@ -363,7 +363,7 @@ const UpdateBusiness = () => {
                             <div className='fragmented-divs-container-address-LL-url'>
                                 {/*------- LONGITUDE -------*/}
                                 <div className='fragmented-div-styling'>
-                                    <label id='longitude-label'>Longitude</label>
+                                    <label id='longitude-label' placeholder='Longitude'></label>
                                     <input
                                         className='create-business-input'
                                         type='text'
@@ -376,7 +376,7 @@ const UpdateBusiness = () => {
                                 </div>
                                 {/*------- LATITUDE -------*/}
                                 <div className='fragmented-div-styling'>
-                                    <label id='latitude-label'>Latitude</label>
+                                    <label id='latitude-label' placeholder='Latitude'></label>
                                     <input
                                         className='create-business-input'
                                         type='text'
@@ -391,7 +391,7 @@ const UpdateBusiness = () => {
                             <div className='fragmented-divs-container-address-LL-url'>
                                 {/*------- WEBSITE -------*/}
                                 <div className='fragmented-div-styling'>
-                                    <label id='website-label'>Website URL</label>
+                                    <label id='website-label' placeholder='Website URL'></label>
                                     <input
                                         className='create-business-input'
                                         type='text'

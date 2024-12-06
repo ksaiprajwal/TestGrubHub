@@ -138,41 +138,9 @@ const HomeSlider = () => {
             <div className="home-img img1">
                 <div className="text-contacts-container">
                     <div className="tagline">
-                        In urgent need of a software engineer?
+                        In urgent need of a quick bite?
                     </div>
-                    <h2>
-                        Gary Song
-                    </h2>
-                    <div className="contact-buttons">
-                        <a href="http://www.github.com/garydsong" target="_blank">
-                            <button
-                                className="slider-contact"
-                                type='button'
-                            >
-                                <img src={githubicon} id="icon"></img>
-                                <span className="contact-text">GitHub</span>
-                            </button>
-                        </a>
 
-                        <a href="https://www.linkedin.com/in/gary-song-96b071246/" target="_blank">
-                            <button
-                                className="slider-contact"
-                            >
-                                <img src={linkedinicon} id="icon"></img>
-                                <span className="contact-text">LinkedIn</span>
-                            </button>
-                        </a>
-
-                        <a href="https://www.gary-song.com" target="_blank">
-                            <button
-                                className="slider-contact"
-                            >
-                                <img src={websiteicon} id="icon"></img>
-                                <span className="contact-text">Website</span>
-                            </button>
-                        </a>
-
-                    </div>
                 </div>
             </div>
 
@@ -180,34 +148,7 @@ const HomeSlider = () => {
 
                 <div className="text-contacts-container">
                     <div className="tagline">
-                        Looking for a master of Flask backends?
-                    </div>
-                    <h2>
-                        Jake Matillano
-                    </h2>
-                    <div className="contact-buttons">
-                        <a href="https://github.com/jakezmat" target="_blank">
-                            <button className="slider-contact">
-                                <img src={githubicon} id="icon"></img>
-                                <span className="contact-text">GitHub</span>
-                            </button>
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/jake-matillano-b141811a3/" target="_blank">
-                            <button className="slider-contact">
-                                <img src={linkedinicon} id="icon"></img>
-                                <span className="contact-text">LinkedIn</span>
-                            </button>
-                        </a>
-
-                        <a href="mailto:jakematillano.z@gmail.com" target="_blank">
-                            <button
-                                className="slider-contact"
-                            >
-                                <img src={emailicon} id="icon"></img>
-                                <span className="contact-text">Email</span>
-                            </button>
-                        </a>
+                        Looking for the perfect date night
                     </div>
 
                 </div>
@@ -217,36 +158,9 @@ const HomeSlider = () => {
 
                 <div className="text-contacts-container">
                     <div className="tagline">
-                        Hire the dev that can take care of your entire database
+                        Beer and Games?
                     </div>
-                    <h2>
-                        Alex Dam
-                    </h2>
-                    <div className="contact-buttons">
-                        <a href="https://github.com/Aldam55" target="_blank">
-                            <button className="slider-contact">
-                                <img src={githubicon} id="icon"></img>
-                                <span className="contact-text">GitHub</span>
-                            </button>
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/alexander-dam-a45b8821a/" target="_blank">
-                            <button className="slider-contact">
-                                <img src={linkedinicon} id="icon"></img>
-                                <span className="contact-text">LinkedIn</span>
-                            </button>
-                        </a>
-
-                        <a href="mailto:alexdam55@gmail.com" target="_blank">
-                            <button
-                                className="slider-contact"
-                            >
-                                <img src={emailicon} id="icon"></img>
-                                <span className="contact-text">Email</span>
-                            </button>
-                        </a>
-                    </div>
-
+                    
                 </div>
             </div>
 
@@ -254,35 +168,9 @@ const HomeSlider = () => {
 
                 <div className="text-contacts-container">
                     <div className="tagline">
-                        Learn data structures and algorithms with ease
+                        Find all the restraunts you can.
                     </div>
-                    <h2>
-                        Sam Suh
-                    </h2>
-                    <div className="contact-buttons">
-                        <a href="https://github.com/Samsuhhh" target="_blank">
-                            <button className="slider-contact">
-                                <img src={githubicon} id="icon"></img>
-                                <span className="contact-text">GitHub</span>
-                            </button>
-                        </a>
-
-                        <a href="https://www.linkedin.com/" target="_blank">
-                            <button className="slider-contact">
-                                <img src={linkedinicon} id="icon"></img>
-                                <span className="contact-text">LinkedIn</span>
-                            </button>
-                        </a>
-
-                        <a href="mailto:suhvivor24@gmail.com" target="_blank">
-                            <button
-                                className="slider-contact"
-                            >
-                                <img src={emailicon} id="icon"></img>
-                                <span className="contact-text">Email</span>
-                            </button>
-                        </a>
-                    </div>
+                    
                 </div>
             </div>
         </div>

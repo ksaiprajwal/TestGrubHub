@@ -13,7 +13,7 @@ function Maps() {
         {}
         <Marker
           location={{ lat: 40.737102, lng: -73.990318 }}
-          color="E00707"
+          color="FACC15"
           label="P"
         />
 

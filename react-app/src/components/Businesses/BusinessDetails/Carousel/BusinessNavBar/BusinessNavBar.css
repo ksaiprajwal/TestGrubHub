@@ -98,7 +98,7 @@
     align-items: center;
     height: 40px;
     width: 90px;
-    background-color: #E00707;
+    background-color: #FACC15;
     border-radius: 5px;
     transition: 1s;
 }
@@ -164,7 +164,7 @@
     align-items: center;
     justify-content: center;
     width: 750px;
-    padding-left: 300px;
+    padding-left: 100px;
 }
 
 .business-nav-search {
@@ -181,7 +181,7 @@
     width: 63px;
     height: 46.3px;
     box-sizing: border-box;
-    background-color: #E00707;
+    background-color: #FACC15;
     background-repeat: no-repeat;
     transition: 1s;
     background-position: 17px 8px;
@@ -189,7 +189,7 @@
     font-size: 0;
     vertical-align: top;
     border-radius: 0 4px 4px 0;
-    border: 1px #E00707 solid;
+    border: 1px #FACC15 solid;
 }
 
 .business-nav-search-button-wrapper:hover {
