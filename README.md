@@ -59,13 +59,13 @@ The Restaurant Finder Application is a web-based platform, similar to Yelp, that
 ### Diagrams
 
 #### Component Diagram
-![component2](./assets/component2)
+![component2](./assets/component2.png)
 
 #### Deployment Diagram
-![deployment3](./assets/component3)
+![deployment3](./assets/component3.jpeg)
 
 #### Class Diagram
-![deployment1](./assets/component1)
+![deployment1](./assets/component1.jpeg)
 
 
 ### Tech Stack
