@@ -1,16 +1,13 @@
-/* TODO Add site wide styles */
-html,
-body {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
+/* Ensure input and buttons are clickable */
+input[type="text"], button {
+    position: relative;
+    z-index: 10;
+    pointer-events: auto;
+  }
+  
+  /* General body styles */
+  body {
     margin: 0;
-    /* <-- Apparently some margin are still there even though it's hidden */
-}
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
